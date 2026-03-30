@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadhanala Manikanta - Portfolio</title>
+    <meta name="description" content="Portfolio of Sadhanala Manikanta, aspiring web developer skilled in HTML, CSS, and JavaScript.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">ManiKanta</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="IMG_20251210_071246.jpg.jpeg" alt="Sadhanala Manikanta profile photo" loading="lazy" width="200" height="200">
+                <h1>Hi, I'm <span>Sadhanala Manikanta</span></h1>
+                <p>Aspiring Web Developer passionate about creating beautiful and functional websites</p>
+                <a href="Manikanta resume3.pdf" class="cta-button">Resume</a>
+            </div>
+        </section> -->
+        <section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Sadhanala Manikanta</span></h1>
+            <p>Aspiring Web Developer passionate about creating beautiful and functional websites</p>
+            <a href="Manikanta resume3.pdf" class="cta-button" style=" margin-left: 300px; margin-right: 300px;">Resume</a>
+        </div>
+        <div class="hero-image">
+            <img src="IMG_20251210_071246.jpg.jpeg" alt="Sadhanala Manikanta profile photo" loading="lazy" width="200" height="200" style="height: 400px;width: 400px;">
+        </div>
+    </div>
+</section>
+
+        <section id="about" class="about reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Frontend Developer</h3>
+                    <p>I'm a passionate web developer. I love turning ideas into beautiful, responsive websites. Currently focusing on mastering modern web technologies and creating amazing user experiences.</p>
+                    <p>My hobbies include reading books, exploring new places, and continuously learning new technologies to build better web applications.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <i class="fas fa-project-diagram"></i>
+                        <h4>3+</h4>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-clock"></i>
+                        <h4>100+</h4>
+                        <p>Hours Coded</p>
+                    </div>
+                    <!-- <div class="stat">
+                        <i class="fas fa-book-open"></i>
+                        <h4>50+</h4>
+                        <p>Books Read</p>
+                    </div> -->
+                    <div class="stat">
+                        <i class="fas fa-mountain"></i>
+                        <h4>10+</h4>
+                        <p>Goals Achieved</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="reveal">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern HTML standards</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Advanced styling, animations and responsive design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive features and dynamic web applications</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="reveal">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>This is my first project - a fully responsive portfolio website built with HTML, CSS, and JavaScript featuring light/dark themes and smooth animations.</p>
+                        <p><strong>Tech Stack:</strong> HTML5 • CSS3 • JavaScript</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Coming Soon...</h3>
+                        <p>More exciting projects in development. Stay tuned!</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Responsive Landing Page</h3>
+                        <p>A modern landing page with smooth animations and mobile-first design approach.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact reveal">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">Let's create something amazing together!</p>
+             <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message..." required></textarea>
+      <button type="submit">Send Message 🚀</button>
+    </form>
+            <div class="contact-links">
+                <a href="https://github.com/manikanta5962" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github fa-2x"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/sadhanala-manikanta-satyanarayana-murthy-393909292/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%3B0ehy4gUkSEitcGgMtOrNUg%3D%3D"class="contact-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <span>Linkedin</span>
+                <!-- <a href="tel:+919121005962" class="contact-link">
+                    <i class="fas fa-phone fa-2x"></i>
+                    <span>+91 91210 05962</span> -->
+                </a>
+                <a href="mailto:manikanta@example.com" class="contact-link">
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <span>Email Me</span>
+                </a>
+            </div>
+        </section>
+        <div class="fancy-cursor">
+  <div class="cursor-core"></div>
+  <div class="cursor-ring"></div>
+  <div class="cursor-trail"></div>
+</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sadhanala Manikanta. Made with ❤️ and lots of coffee ☕</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
